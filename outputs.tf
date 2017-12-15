@@ -1,3 +1,3 @@
-output "instance_ips" {
+output "addresses" {
   value = "${join(",", google_compute_address.instances.*.address)}"
 }

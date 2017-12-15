@@ -1,6 +1,7 @@
 variable "region" {}
+
 variable "amount" {}
-variable "name" {}
+variable "name_prefix" {}
 variable "machine_type" {}
 variable "user_data" {}
 
