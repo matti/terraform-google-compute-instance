@@ -20,6 +20,7 @@ module "gci_test" {
   region       = "us-east1"
   name_prefix  = "test"
   machine_type = "custom-2-2048"
+  network      = "mynetwork"
   disk_size    = "32"
   disk_image   = "${data.google_compute_image.coreos_stable.self_link}"
 }

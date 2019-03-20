@@ -5,6 +5,10 @@ variable "name_prefix" {}
 variable "machine_type" {}
 variable "user_data" {}
 
+variable "network" {
+  default = "default"
+}
+
 variable "disk_type" {
   default = "pd-ssd"
 }
